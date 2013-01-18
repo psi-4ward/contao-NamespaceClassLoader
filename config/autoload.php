@@ -26,4 +26,4 @@
  * @license    http://opensource.org/licenses/lgpl-3.0.html
  */
 
-require_once(TL_ROOT . '/system/modules/0Autoload/NamespaceClassLoader.php');
+require_once(TL_ROOT . '/system/modules/!Autoload/NamespaceClassLoader.php');

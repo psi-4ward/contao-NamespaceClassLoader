@@ -39,7 +39,7 @@ class NamespaceClassLoader
     {
         if (static::$loader === null) {
 
-            require_once(TL_ROOT . '/system/modules/_autoload/library/Composer/Autoload/ClassLoader.php');
+            require_once(TL_ROOT . '/system/modules/!Autoload/library/Composer/Autoload/ClassLoader.php');
 
             static::$loader = new \Composer\Autoload\ClassLoader();
             static::$loader->register();
